@@ -156,11 +156,11 @@ $var = 0;
 			<div class="infocontent">
 				<h2>Vilnius alt fest location</h2>
 				<p>
-					Positivus is an annual three-day music festival taking place in Latvia, Salacgrīva since 2007. It offers its visitors a wide array of amazing performers, plentiful entertainment options and a lively atmosphere, creating an unforgettable experience.
+					Positivus is an annual three-day music festival taking place in Latvia, Salacgrīva since 2007.
+					<br><br>
+					It offers its visitors a wide array of amazing performers, plentiful entertainment options and a lively atmosphere, creating an unforgettable experience.
 					<br><br>
 					The idyllic location and beautiful coastal region, located 110 km from Riga are praised both by the festival visitors as well as the performing artists.
-					<br><br>
-					Apart from an exciting music experience, the festival goers also have the opportunity to participate in and enjoy various activities throughout the festival.
 				</p>
 			</div>
 		</div>
