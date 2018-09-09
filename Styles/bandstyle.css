@@ -1,0 +1,343 @@
+body {
+	background-color: #D3D4D9;
+}
+
+/* page top */
+.bandtop { 
+	width: 100%;
+	margin: 0 auto;
+	background-color: #D3D4D9;
+}
+
+/*navbar container*/
+.container { 
+	width: 95%;
+}
+
+/*band wrap*/
+.bandwrap { 
+	padding-top: 85px;
+	padding-bottom: 30px;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*button*/
+.page { 
+	margin-top: 20px;
+	float: left;
+	padding: 10px 40px;
+	background-color: #BB0A21;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	border: none;
+}
+
+/*page top wrapper*/
+.bandhead {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* get back to setlist button */
+#btnfirst { 
+	position: absolute;
+	top: 15%;
+	margin: 0 auto;
+	font-size: 22px;
+	font-weight: 600;
+	text-align: center;
+	left: 10%;
+	transform: translate(-50%, -50%);
+}
+
+/* next band button */
+#btnsecond { 
+	position: absolute;
+	top: 15%;
+	margin: 0 auto;
+	font-size: 22px;
+	font-weight: 600;
+	text-align: center;
+	left: 89%;
+	transform: translate(-50%, -50%);
+}
+
+/* band name */
+.bandhead h2{ 
+	position: absolute;
+	top: 13%;
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: 600;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#bandfoto { 
+	margin-top: 50px;
+	width: 100%;
+	background: linear-gradient(to top, black);
+}
+
+/* top image */
+.bandhead img { 
+	width: 100%;
+	height: 100%;
+}
+
+.bandhead { 
+	position: relative;
+}
+
+
+#bandbody { 
+	padding-bottom: 30px;
+	width: 95%;
+	margin: 0 auto;
+}
+
+/* symbols for buttons */
+.fa-chevron-left { 
+	padding-right: 10px;
+}
+
+.fa-chevron-right { 
+	padding-left: 10px;
+}
+
+.bandtext { 
+	width: 100%;
+}
+
+/* span in text about band */
+.meet { 
+	font-size: 25px;
+	text-align: center;
+	color: black;
+	font-weight: 700;
+}
+
+/* text about band */
+.bandtext p { 
+	background-color: #4B88A2;
+	color: white;
+	padding: 20px;
+	font-size: 20px;
+	font-family: 'Karla', sans-serif;
+	text-align: justify;
+}
+
+.video-container {
+	position:relative;
+	padding-bottom: 39%;
+	padding-top: 30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.media { 
+	margin-top: 30px;
+}
+
+#footer { 
+	height: 500px;
+}
+
+iframe { 
+	z-index: 0;
+}
+
+#btnfirst , #btnsecond { 
+	position: absolute;
+	margin: 0 auto;
+	font-weight: 600;
+	text-align: center;
+	transform: translate(-50%, -50%);
+}
+
+.btn:hover, .btn:focus, .btn:active { 
+	background-color: #4B88A2;
+	color: white;
+}
+
+.footerwrap { 
+	background-color: red;}
+
+
+.footercol ul li { 
+	margin-top: 13px;
+}
+
+@media only screen and (min-width: 1201px){
+
+	.videoWrapper { 
+		float: left;
+		width: 65%;
+	}
+
+	.spotify { 
+		float: right;
+		width: 30%;
+	}
+
+	.bandhead h2{ 
+		top: 15%;
+		font-size: 50px;
+		left: 50%;
+	}
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px){
+
+
+	#btnfirst { 
+		left: 10%;
+	}
+
+	#btnsecond { 
+		top: 15%;
+		font-size: 22px;
+		left: 87%;
+		transform: translate(-50%, -50%);
+	}
+
+	#btnfirst , #btnsecond {
+		top: 13%;
+		font-size: 22px;
+		padding: 6px 12px;
+	}
+
+	.bandhead h2{ 
+		top: 13%;
+		font-size: 40px;
+		left: 50%;
+	}
+
+	.videoWrapper { 
+		float: left;
+		width: 55%;
+	}
+
+	.spotify { 
+		float: right;
+		width: 40%;
+	}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px){
+
+	#btnfirst { 
+		left: 10%;
+	}
+
+	#btnsecond { 
+		left: 87%;
+	}
+
+	#btnfirst, #btnsecond { 
+		padding: 6px 12px;
+		top: 20%;
+		font-size: 18px;
+	}
+
+	.bandhead h2{ 
+		top: 20%;
+		font-size: 30px;
+	}
+
+	.bandwrap {
+		padding-top: 50px;
+	}
+
+	.spotify { 
+		margin-top: 30px;
+	}
+
+	.meet { 
+		font-size: 22px;
+		text-align: center;
+		color: black;
+		font-weight: 700;
+	}
+	
+	.navbar-brand > img {
+	margin-left: 7px;
+	}
+
+}
+
+@media only screen and (max-width: 600px){
+
+	.container { 
+	width: 95%;
+	}
+	#btnfirst { 
+		left: 12%;
+	}
+
+	#btnsecond { 
+		left: 85%;
+	}
+
+	#btnfirst , #btnsecond { 
+		padding: 4px 10px;
+		font-size: 15px;
+		top: 50%;
+	}
+
+	.bandhead h2{ 
+		top: 15%;
+		left: 50%;
+		font-size: 25px;
+	}
+
+	.bandhead { 
+		display: flex;
+	}
+
+	.meet { 
+		font-size: 18px;
+		text-align: center;
+		color: black;
+		font-weight: 700;
+	}
+
+
+	.bandtext p { 
+		font-size: 18px;
+	}
+
+	.bandwrap {
+		padding-top: 50px;
+	}
+
+	.bandbody {
+		display: block;
+	}
+
+	.spotify { 
+		margin-top: 30px;
+	}
+	
+	.bandhead h2 { 
+	font-size: 20px;}
+	
+	.navbar-brand > img {
+	margin-left: 7px;
+	}
+
+}

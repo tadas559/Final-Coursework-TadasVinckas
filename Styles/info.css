@@ -1,0 +1,187 @@
+h2 {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+}
+
+/* categories nav link */
+#categnav .list  a .active{ 
+	background-color: #D3D4D9;
+}
+
+/* info about topic */
+#answers { 
+	padding-top: 85px;
+}
+
+/* answers head */
+#answhead { 
+	background-color: #BB0A21;
+}
+
+/* categories nav */
+#categnav {
+	background-color: #BB0A21;
+}
+
+/* topic name */
+.sectionh h2 {
+	padding: 20px 0;
+	text-transform: uppercase;
+	font-weight: 600;
+	background-color: #BB0A21;
+	color: black;
+}
+
+.wrap { 
+	width: 95%;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.list a {
+	text-decoration: none !important;
+}
+
+#categnav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* categories li */
+#categnav li {
+	text-align: left; 
+	font-weight: 700;
+	color: white;
+	font-size: 20px;
+	font-family: 'Karla', sans-serif;
+	background-color: black;
+	margin-right: 20px;
+	padding: 5px 13px;
+	margin-bottom: 10px;
+}
+
+#categnav li:hover {
+	background-color: #4B88A2;
+}
+
+#categnav .list  a .active:hover{ 
+	background-color: #4B88A2;
+}
+
+
+#answersbody { 
+	background-color: #D3D4D9;
+}
+
+
+/* about left */
+.aboutleft { 
+	background-color: #68021D;
+	color: white;
+	padding: 50px 0;
+}
+
+
+.infocontent p { 
+	text-align: justify;
+}
+
+/* about right */
+.aboutright { 
+	background-color: white;
+	padding: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+.aboutright .infocontent { 
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+.infocontent { 
+	height: auto;
+}
+
+/* map */
+iframe { 
+	border: none;
+}
+
+#mapsection { 
+	padding: 0;
+	margin: 0;
+}
+
+/* info image */
+.infoimg { 
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.infocontent { 
+	position: relative;
+}
+
+@media only screen and (min-width: 1201px){
+	#answersbody { 
+		display: flex;
+	}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px){
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px){
+
+	#answers { 
+		padding-top: 50px;
+	}
+
+	.sectionh h2 { 
+		text-align: left;
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width: 600px){
+
+	#answers { 
+		padding-top: 50px;
+	}
+
+	h2 { 
+		text-align: center;
+	}
+
+	ul { 
+		padding: 0;
+	}
+
+	#categnav ul { 
+		flex-direction: column;}
+
+	#categnav a { 
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+
+	#categnav li { 
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+	}
+
+	li { 
+		margin: 0 auto;
+	}
+}

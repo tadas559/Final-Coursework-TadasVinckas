@@ -1,0 +1,326 @@
+body { 
+	background-color: #68021D;
+	position: relative;
+	margin:0;
+	padding:0;
+}
+
+.navbar { 
+	z-index: 1000000000000;
+}
+
+textarea { 
+	overflow: hidden;
+}
+
+/* articles section */
+#articles { 
+	width: 100%;
+	background-image: url(../Festimages/f23.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding-bottom: 30px;
+}
+
+/* login page */
+#login { 
+	width: 100%;
+	background-color: #68021D;
+	margin: 0;
+	padding: 30px 0;
+}
+
+
+h3, .articlep , p, label, .onearticlecont { 
+	font-family: 'Montserrat', sans-serif;	
+	color: black;
+}
+
+h3 { 
+	font-family: 'Karla', sans-serif;
+	font-size: 25px;
+	color: black;
+	margin: 0;
+	padding-bottom: 6px;
+}
+
+a , a:hover{ 
+	text-decoration: none;
+}
+
+a:hover h3 { 
+	color: #4B88A2;
+}
+
+/*review info*/
+.info {
+	margin-top: 5px;
+	font-size: 12px;
+	color: black;
+	font-style: italic;
+}
+
+article { 
+	padding: 30px;
+	background-color: white;
+}
+
+/*article content*/
+.articlep p, .articlep { 
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;  
+	overflow: hidden;
+	color: black;
+	font-size: 17px;
+	width: 100%;
+}
+
+/*submit delete in modal*/
+.modal a.close-modal {
+	left: 92%;
+	top: 17%;
+}
+
+form { 
+	padding: 20px 0;
+	border-radius: 2px;
+}
+label { 
+	color: white;
+}
+
+/* not displaying images from texteditor in all reviews page */
+.articlep img , .articlep p img, .articlep ul li img, .article p ul img { 
+	display: none !important;
+}
+
+/* one article content */
+.onearticlecont { 
+	overflow: hidden;
+	color: white;
+	font-size: 17px;
+	width: 100%;
+}
+
+/* editor */
+#editor {
+	width: 100%;
+	height: 400px;
+}
+
+/* checkbox */
+#check  { 
+	margin-left: 5px;
+}
+
+/* inputs */
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	display: block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	color: black;
+}
+
+
+label { 
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+input[type=submit] {
+	width: 20%;
+	display: block;
+	margin: 20px auto;
+	background-color: #4B88A2;
+	color: white;
+	padding: 14px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer
+}
+
+input[type=submit]:hover {
+	background-color: #BB0A21;
+}
+
+/* delete button */
+a #btnfirst { 
+	margin-right: 8px;
+}
+
+.header { 
+	padding-top: 30px;
+	background-color: #68021D;
+}
+
+.sectiontitle {
+	margin: 0;
+	width: 95%;
+	padding-left: 0;
+	margin: 0 auto;
+	background-color: #68021D;
+	text-align: left;}
+
+.sectiontitle h2 { 
+	font-size: 30px;
+}
+
+/* havent registered link */
+#login a { 
+	font-size: 15px;
+}
+
+.error { 
+	font-size: 12px;
+	color: red;
+}
+
+/* pagination buttons */
+.numswrap { 
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 5px;
+	height: 100px;
+	background-color: #68021D;
+}
+
+/* pagination button a */
+.pagenum {
+	display: inline-block;
+	padding: 8px;
+	font-size: 20px;
+	color: black;
+	background-color: white;
+	margin-left: 5px;
+	margin-top: 20px;
+}
+
+.activenum { 
+	color: #BB0A21;
+}
+
+.pagenum:hover {
+	color: #BB0A21;
+}
+.pagenum:first-child { 
+	margin-left: 0;
+}
+
+/* edit / delete buttons */
+#btnfirst { 
+	margin: 0 auto;
+	font-size: 10px;
+	font-weight: 600;
+	text-align: center;
+}
+
+article:last-child { 
+	border: none;
+}
+
+@media only screen and (max-width: 600px){
+	
+	h3 { 
+		font-size: 18px;
+	}
+
+	.articlep p, .articlep {
+		font-size: 13px;
+	}
+
+	.sectiontitle h2 { 
+		font-size: 27px;
+	}
+
+	.info { 
+		font-size: 12px;
+	}
+
+}
+
+/* articles wrap for all blocks */
+.articleswr { 
+	width: 95%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* articles wrap if was selected to show one article */
+.articleswrap { 
+	width: 95%;
+	margin: 0 auto;
+}
+
+.articleswr , .articleswrap { 
+	margin: 10px auto;
+}
+
+@media only screen and (min-width: 1201px){
+
+	/* article block */
+	.artblock { 
+		width: 32%;
+	}
+
+	/* using this to center article blocks */
+	.artblock:nth-child(2) , .artblock:nth-child(5) {
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+
+	article { 
+		margin-top: 2%;
+	}
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1200px){
+
+	.artblock { 
+		width: 32%;
+	}
+
+	.artblock:nth-child(2) , .artblock:nth-child(5) {
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+
+	article { 
+		margin-top: 2%;
+	}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px){
+
+
+	.artblock { 
+		width: 48%;
+	}
+
+	.artblock:nth-child(1) , .artblock:nth-child(3) , .artblock:nth-child(5) {
+		margin-right: 4%;
+	}
+
+	article { 
+		margin-top: 4%;
+	}
+}
+
+@media only screen and (max-width: 600px){
+
+	.artblock:first-child { 
+		margin-top: 30px;
+	}
+	.artblock { 
+		margin-top: 10px;
+		width: 100%;
+	}
+}

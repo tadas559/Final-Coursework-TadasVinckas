@@ -1,0 +1,94 @@
+/* images gallery */
+.tz-gallery { 
+	display: flex;
+	flex-wrap: wrap;
+	background-color: black;
+	overflow: hidden;
+}
+
+/* image block */
+.imgblock { 
+	width: 25%;
+	position: relative;
+	overflow: hidden;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px){
+
+	.imgblock { 
+		width: calc(100%/3);
+	}
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px){
+
+		.imgblock { 
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 600px){
+		.imgblock { 
+		width: 100%;
+	}
+}
+
+img { 
+	width: 100%;
+	cursor: pointer;
+}
+
+/* img block */
+.tz-gallery .imgblock:before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	opacity: 0;
+	color: #fff;
+	font-size: 26px;
+	font-family: 'Glyphicons Halflings';
+	content: '\e003';
+	pointer-events: none;
+	z-index: 9000;
+	transition: 0.4s;
+}
+
+
+/* img block after click  */
+.tz-gallery .imgblock:after {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: 0.4s;
+}
+
+/* to hide domain host */
+img[src="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"]{
+display:none;
+}
+
+.tz-gallery .imgblock:hover:after,
+.tz-gallery .imgblock:hover:before {
+	opacity: 1;
+}
+
+/*lightbox image*/
+.fimg {
+	display: block;
+	border: 0;
+	opacity: 0;
+}
+
+.fimg:not(.initial) {
+	transition: opacity 0.5s;
+}
+.fimg.initial,
+.fimg.loaded,
+.fimg.error {
+	opacity: 1;
+}
+
+.fimg:not([src]) {
+	visibility: hidden;
+}
