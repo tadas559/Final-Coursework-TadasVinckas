@@ -75,11 +75,10 @@ $var = 0;
 			<div class="aboutleft infoblock">
 				<div class="infocontent">
 					<h2>About the event</h2>
-					<p>There is no one-size-fit-all video solution. Every business video must be made carefully to deliver your message perfectly.<br><br>
+										<p>“Vilnius Alt Fest“ is one of the biggest international open-air summer festivals of music and entertainment in Lithuania<br><br>
 
-						Be it explainer video, motion graphics spot, corporate presentation or even a TV commercial, we never compromise on quality as we don’t just aim to do one project, but to start long term relationships.<br><br>
-
-						Everything produced here is bespoke and carefully crafted from scratch.</p>
+						The festival is growing every year, attracting the participants from Lithuania as well as the guests from Germany, Finland, Sweden, Belarus, Latvia, Poland, Estonia and other countries.<br><br>
+</p>
 				</div>
 			</div>
 			<div class="aboutright infoblock">
