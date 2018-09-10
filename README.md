@@ -11,6 +11,7 @@ I also created a page for reviews so people could share their favourite moments 
 From PHP side, I created an admin content management page where the user can edit and delete content of bands and info topics.
 
 Technology: 
+
 I used flexboxes and keyframes many times. 
 Used Bootstrap carousel and navbar.
 Included iframes for spotify, youtube, map.
