@@ -19,3 +19,12 @@ Tried to reduce code as much as possible. Therefore, I took the majority of info
 In addition, there is a text area in which you can include text and pictures, pagination and "remember me" feature.
 Pages „My reviews“ and „Create review“ are not visible for non-registered users. Registered users are able to edit/delete only their reviews.
 
+Plans for the future: 
+
+To put more restrictions on registration form.
+Add more tables for managing from admin side.
+Add in admin side "create" opportunity.
+Add Facebook login.
+Add likes.
+Put an anchor link on button 'Buy tickets here' (Had some problems, so didn't make it).
+Also to make some changes which could not let images expand reviews blocks on all reviews pages.
