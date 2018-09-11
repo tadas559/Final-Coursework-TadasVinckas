@@ -366,13 +366,14 @@ if (isset($_GET['id']) || isset($_GET['filter'])) {
 ?> </p>        
                         <!--if user is logged in and he is author of the post - he can see edit, delete buttons-->
         
-                <?php
-        if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == "true" && $onerew['username'] == $_SESSION['username']) {
+           <?php      if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == "true") {
+            if($onerew['username'] == $_SESSION['username'] || $_SESSION['access'] == 1) {
             echo '<a href="delete_review.php?id=' . $onerew['id'] . '" rel="modal:open"><button type="button" id = "btnfirst" class="btn page">Delete review</button></a>';
             echo '<a href="reviews.php?filter=createrev&edit=' . $onerew['id'] . '"><button id = "btnfirst" type="button" class="btn page">Edit review</button></a>';
             /*one article content*/
         }
-?>
+        }
+	    ?>
            
                     <div class="onearticlecont">
                         <?php
