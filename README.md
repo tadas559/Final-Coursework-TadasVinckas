@@ -18,7 +18,7 @@ Included iframes for spotify, youtube, map.
 Included plugins: lightbox, lazy load, page loading with showing gif.
 Tried to reduce code as much as possible. Therefore, I took the majority of information from database. Also, I tried to avoid repeating PHP code by creating functions.
 In addition, there is a text area in which you can include text and pictures, pagination and "remember me" feature.
-Pages „My reviews“ and „Create review“ are not visible for non-registered users. Registered users are able to edit/delete only their reviews.
+Pages „My reviews“ and „Create review“ are not visible for non-registered users. Registered users are able to edit/delete only their reviews. Admin is able to delete/edit all reviews.
 
 Plans for the future: 
 
@@ -28,4 +28,4 @@ Add in admin side "create" opportunity.
 Include Facebook login and likes.
 Put an anchor link on button 'Buy tickets here' (Had some problems, so didn't make it).
 Also to make some changes which could not let images expand reviews blocks on all reviews pages.
-To show errors if text area or title is empty
+To show errors if text area or title is empty.
