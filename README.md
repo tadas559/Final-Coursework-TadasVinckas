@@ -28,3 +28,4 @@ Add in admin side "create" opportunity.
 Include Facebook login and likes.
 Put an anchor link on button 'Buy tickets here' (Had some problems, so didn't make it).
 Also to make some changes which could not let images expand reviews blocks on all reviews pages.
+To show errors if text area or title is empty 
