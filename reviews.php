@@ -127,29 +127,23 @@ if (isset($_GET['id']) || isset($_GET['filter'])) {
     /* if filter */
     elseif (isset($_GET['filter'])) {
         
-        $filter = $_GET['filter'];
-        /* if filter is all reviews */
-        if ($filter == 'allrew') {
+	 /* if filter is all reviews or filter is new first*/
+        if ($filter == 'allrew' || $filter == 'newfirst') {
             $all_sel         = "SELECT * FROM reviews";
             $all             = select($all_sel, $db);
             $all_reviews_sel = "SELECT * FROM reviews ORDER BY date DESC LIMIT " . ($page - 1) * $entries_per_page . ", " . $entries_per_page;
-            $all_reviews     = select($all_reviews_sel, $db);
-            
+            $all_reviews     = select($all_reviews_sel, $db);   
         }
-        /* if filter is new first */
-        elseif ($filter == 'newfirst') {
-            $all_sel         = "SELECT * FROM reviews";
-            $all             = select($all_sel, $db);
-            $all_reviews_sel = "SELECT * FROM reviews ORDER BY date DESC LIMIT " . ($page - 1) * $entries_per_page . ", " . $entries_per_page;
-            $all_reviews     = select($all_reviews_sel, $db);
-            
-        } /* if show old first */ elseif ($filter == 'oldfirst') {
+	    
+	 /* if show old first */ 
+	    elseif ($filter == 'oldfirst') {
             $all_sel         = "SELECT * FROM reviews";
             $all             = select($all_sel, $db);
             $all_reviews_sel = "SELECT * FROM reviews ORDER BY date ASC LIMIT " . ($page - 1) * $entries_per_page . ", " . $entries_per_page;
             $all_reviews     = select($all_reviews_sel, $db);
             
-        } /* if filter is my reviews */ elseif ($filter == 'myrev') {
+        } /* if filter is my reviews */ 
+	    elseif ($filter == 'myrev') {
             
             if ($_SESSION['loggedin'] == "false") {
                 header('Location: login.php');
