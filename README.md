@@ -22,10 +22,11 @@ Pages „My reviews“ and „Create review“ are not visible for non-registere
 
 Plans for the future: 
 
-To put more restrictions on registration form.
-Add more tables for managing from admin side.
-Add in admin side "create" opportunity.
+Create a page for selling festival attributes with shopping carts and payments.
 Include Facebook login and likes.
 Put an anchor link on button 'Buy tickets here' (Had some problems, so didn't make it).
 Also to make some changes which could not let images expand reviews blocks on all reviews pages.
-To show errors if text area or title is empty.
+To show errors if text area or title is empty. 
+To put more restrictions on registration form.
+Add more tables for managing from admin side.
+Add in admin side "create" opportunity.
