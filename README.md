@@ -30,3 +30,5 @@ To show errors if text area or title is empty.
 To put more restrictions on registration form.
 Add more tables for managing from admin side.
 Add in admin side "create" opportunity.
+Improve website security.
+Reduce loading time.
